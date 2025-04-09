@@ -1,14 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  /* Estilos para el Header */
 .header {
     background-color: #880E4F;
     color: white;
@@ -31,7 +23,7 @@ body {
   }
   
   .logo {
-    height: 50px;
+    height: 60px; 
     width: auto;
   }
   
@@ -40,9 +32,9 @@ body {
     font-weight: bold;
   }
   
-  /* Menú de navegación */
   .navbar {
-    display: none;
+    display: flex;
+    justify-content: flex-end;
   }
   
   .navbar a {
@@ -55,7 +47,6 @@ body {
     text-decoration: underline;
   }
   
-  /* Barra de búsqueda */
   .search-bar {
     display: flex;
     align-items: center;
@@ -77,7 +68,7 @@ body {
     color: rgba(255, 255, 255, 0.7);
   }
   
-  /* Responsividad */
+
   @media (min-width: 768px) {
     .navbar {
       display: flex;
@@ -95,4 +86,5 @@ body {
       display: none;
     }
   }
+  
   
